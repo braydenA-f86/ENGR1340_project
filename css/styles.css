@@ -1,0 +1,129 @@
+body {
+    background-color: #e0e6e8;
+    font-family: 'Times New Roman', Times, serif;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1 {
+    color: #333;
+}
+
+h2 {
+    color: #005a9c;
+    border-bottom: 2px solid #f0f4f8;
+    padding-bottom: 5px;
+}
+
+#Logo {
+    width: 550px;
+    height: 200px;
+    border: 4px solid #ffffff; 
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); 
+}
+
+#Man {
+    position: absolute;
+    margin-top: 175px;
+    margin-left: -895px;
+    width: 428px;
+    height: 535px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+#ManTalk {
+    position: absolute;
+    margin-top: 725px;
+    margin-left: 33px;
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 410px;
+}
+
+#Summary {
+    position: absolute;
+    margin-top: 350px;
+    margin-left: 1395px;
+    background-color: #ffffff;
+    padding: 10px;
+    padding-left: 0px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 380px;
+}
+
+#Summary h2 {
+    padding: 10px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block; /* Put label on its own line */
+    font-weight: bold;
+    margin-bottom: 5px;
+    font-size: 1.0em;
+    margin-left: -300px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 50%; /* Make fields fill the container */
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    box-sizing: border-box; /* Important for 100% width */
+}
+
+.form-group textarea {
+    min-height: 120px;
+    resize: vertical; /* Allow user to resize vertically */
+}
+
+.submit-button {
+    background-color: #005a9c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.submit-button:hover {
+    background-color: #004a80;
+}
+
+.return-button {
+    background-color: #005a9c;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.return-button:hover {
+    background-color: #004a80;
+}
