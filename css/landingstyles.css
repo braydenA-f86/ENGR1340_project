@@ -1,0 +1,89 @@
+body {
+    background-color: #e0e6e8;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    text-align: center;
+    margin-bottom: 20px;
+ }
+
+.container {
+    width: 950px;
+    height: 870px;
+    margin: 0 auto;
+    background-color: #d7dfea;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+/*all descriptive text*/
+p{
+    color:#000000;
+}
+
+h1 {
+    color: #304599;
+}
+
+h2 {
+    color: #507201;
+    border-bottom: 2px solid #f0f4f8;
+    padding-bottom: 5px;
+}
+
+/*nav menu formating below*/
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #818181;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  text-decoration: seagreen;
+}
+
+li a:hover {
+  background-color: #111111;
+}
+/*styling for get started button(some pulled from given css style sheet)*/
+button {
+font-family: inherit; /* Use same font as body */
+cursor: pointer; /* Show pointer cursor on hover */
+align-items: center;
+}
+button {
+/* DISPLAY
+inline-block allows width/height but keeps inline flow */
+display: inline-block;
+/* PADDING
+Space inside button (makes it bigger and easier to click) */
+padding: 0.75rem 1.5rem; /* 12px top/bottom, 24px left/right */
+/* BORDERS */
+border: none; /* Remove default button border */
+border-radius: var(--radius-md); /* Rounded corners (6px) */
+/* TEXT */
+font-weight: 600; /* Semi-bold text */
+font-size: 1rem; /* Same as body text */
+text-align: center; /* Center text inside button */
+/* CURSOR
+Shows hand pointer on hover (indicates it's clickable) */
+cursor: pointer;
+/* TRANSITION
+Smooth animation when properties change */
+transition: all var(--transition-normal) ease;
+/* MISC */
+text-decoration: none; /* Remove underline if button is a link */
+white-space: nowrap; /* Prevent text from wrapping to new line */
+}
